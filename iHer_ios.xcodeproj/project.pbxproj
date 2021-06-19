@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112068B0267E6D02004ADE19 /* iHer_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068AF267E6D02004ADE19 /* iHer_iosApp.swift */; };
+		112068B2267E6D02004ADE19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068B1267E6D02004ADE19 /* ContentView.swift */; };
+		112068B4267E6D07004ADE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112068B3267E6D07004ADE19 /* Assets.xcassets */; };
+		112068B7267E6D07004ADE19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112068B6267E6D07004ADE19 /* Preview Assets.xcassets */; };
+		112068C2267E6D07004ADE19 /* iHer_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068C1267E6D07004ADE19 /* iHer_iosTests.swift */; };
+		112068CD267E6D07004ADE19 /* iHer_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068CC267E6D07004ADE19 /* iHer_iosUITests.swift */; };
+		112068DF267E7415004ADE19 /* StreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068DE267E7415004ADE19 /* StreamViewModel.swift */; };
+		112068E1267E7432004ADE19 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068E0267E7432004ADE19 /* Login.swift */; };
+		112068E3267E744E004ADE19 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068E2267E744E004ADE19 /* LoadingScreen.swift */; };
+		112068E5267E745F004ADE19 /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068E4267E745F004ADE19 /* ChannelView.swift */; };
+		112068E7267E748F004ADE19 /* CreateNewChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068E6267E748F004ADE19 /* CreateNewChannel.swift */; };
+		112068E9267E74A7004ADE19 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068E8267E74A7004ADE19 /* ChatView.swift */; };
+		112068EB267E74BC004ADE19 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068EA267E74BC004ADE19 /* MessageRowView.swift */; };
+		112068ED267E74D7004ADE19 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068EC267E74D7004ADE19 /* ChatBubble.swift */; };
+		112068EF267E74F7004ADE19 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112068EE267E74F7004ADE19 /* Credential.swift */; };
+		3C0B526D1E630D3959F7C202 /* Pods_iHer_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92642DED6F553D1D166DC220 /* Pods_iHer_iosTests.framework */; };
+		83B716A1006CDE1FCAFFB7F8 /* Pods_iHer_ios_iHer_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD03140613757358B2F49E4 /* Pods_iHer_ios_iHer_iosUITests.framework */; };
+		EB84B7FBE11D782F8A7788C4 /* Pods_iHer_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF90813DBB6B9EA0914ACE9A /* Pods_iHer_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		112068BE267E6D07004ADE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112068A4267E6D02004ADE19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112068AB267E6D02004ADE19;
+			remoteInfo = iHer_ios;
+		};
+		112068C9267E6D07004ADE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112068A4267E6D02004ADE19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112068AB267E6D02004ADE19;
+			remoteInfo = iHer_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112068AC267E6D02004ADE19 /* iHer_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHer_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		112068AF267E6D02004ADE19 /* iHer_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHer_iosApp.swift; sourceTree = "<group>"; };
+		112068B1267E6D02004ADE19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		112068B3267E6D07004ADE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112068B6267E6D07004ADE19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		112068B8267E6D07004ADE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112068BD267E6D07004ADE19 /* iHer_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHer_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112068C1267E6D07004ADE19 /* iHer_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHer_iosTests.swift; sourceTree = "<group>"; };
+		112068C3267E6D07004ADE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112068C8267E6D07004ADE19 /* iHer_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHer_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112068CC267E6D07004ADE19 /* iHer_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHer_iosUITests.swift; sourceTree = "<group>"; };
+		112068CE267E6D07004ADE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112068DE267E7415004ADE19 /* StreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewModel.swift; sourceTree = "<group>"; };
+		112068E0267E7432004ADE19 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		112068E2267E744E004ADE19 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		112068E4267E745F004ADE19 /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
+		112068E6267E748F004ADE19 /* CreateNewChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewChannel.swift; sourceTree = "<group>"; };
+		112068E8267E74A7004ADE19 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		112068EA267E74BC004ADE19 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		112068EC267E74D7004ADE19 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		112068EE267E74F7004ADE19 /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		466A7C11FD5CDE7794525D1C /* Pods-iHer_ios-iHer_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHer_ios-iHer_iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-iHer_ios-iHer_iosUITests/Pods-iHer_ios-iHer_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A6415CFAD4B53CE5F3BAFF9 /* Pods-iHer_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHer_iosTests.release.xcconfig"; path = "Target Support Files/Pods-iHer_iosTests/Pods-iHer_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		92642DED6F553D1D166DC220 /* Pods_iHer_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHer_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFCE0FC0186256C9CE86D3D /* Pods-iHer_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHer_iosTests.debug.xcconfig"; path = "Target Support Files/Pods-iHer_iosTests/Pods-iHer_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B86F243A5CFA1C50A2BE0D21 /* Pods-iHer_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHer_ios.debug.xcconfig"; path = "Target Support Files/Pods-iHer_ios/Pods-iHer_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		C75988E06AD75694C8674881 /* Pods-iHer_ios-iHer_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHer_ios-iHer_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-iHer_ios-iHer_iosUITests/Pods-iHer_ios-iHer_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF90813DBB6B9EA0914ACE9A /* Pods_iHer_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHer_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B139A0D7CABF1633A29D73 /* Pods-iHer_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHer_ios.release.xcconfig"; path = "Target Support Files/Pods-iHer_ios/Pods-iHer_ios.release.xcconfig"; sourceTree = "<group>"; };
+		FBD03140613757358B2F49E4 /* Pods_iHer_ios_iHer_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHer_ios_iHer_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112068A9267E6D02004ADE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB84B7FBE11D782F8A7788C4 /* Pods_iHer_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112068BA267E6D07004ADE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0B526D1E630D3959F7C202 /* Pods_iHer_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112068C5267E6D07004ADE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B716A1006CDE1FCAFFB7F8 /* Pods_iHer_ios_iHer_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112068A3267E6D01004ADE19 = {
+			isa = PBXGroup;
+			children = (
+				112068AE267E6D02004ADE19 /* iHer_ios */,
+				112068C0267E6D07004ADE19 /* iHer_iosTests */,
+				112068CB267E6D07004ADE19 /* iHer_iosUITests */,
+				112068AD267E6D02004ADE19 /* Products */,
+				B417FF48A1039448D87A0419 /* Pods */,
+				CBCC0991A16F0C5AE292E02A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		112068AD267E6D02004ADE19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112068AC267E6D02004ADE19 /* iHer_ios.app */,
+				112068BD267E6D07004ADE19 /* iHer_iosTests.xctest */,
+				112068C8267E6D07004ADE19 /* iHer_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112068AE267E6D02004ADE19 /* iHer_ios */ = {
+			isa = PBXGroup;
+			children = (
+				112068DD267E6F69004ADE19 /* GroupChat */,
+				112068AF267E6D02004ADE19 /* iHer_iosApp.swift */,
+				112068B1267E6D02004ADE19 /* ContentView.swift */,
+				112068B3267E6D07004ADE19 /* Assets.xcassets */,
+				112068B8267E6D07004ADE19 /* Info.plist */,
+				112068B5267E6D07004ADE19 /* Preview Content */,
+				112068EE267E74F7004ADE19 /* Credential.swift */,
+			);
+			path = iHer_ios;
+			sourceTree = "<group>";
+		};
+		112068B5267E6D07004ADE19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				112068B6267E6D07004ADE19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		112068C0267E6D07004ADE19 /* iHer_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				112068C1267E6D07004ADE19 /* iHer_iosTests.swift */,
+				112068C3267E6D07004ADE19 /* Info.plist */,
+			);
+			path = iHer_iosTests;
+			sourceTree = "<group>";
+		};
+		112068CB267E6D07004ADE19 /* iHer_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				112068CC267E6D07004ADE19 /* iHer_iosUITests.swift */,
+				112068CE267E6D07004ADE19 /* Info.plist */,
+			);
+			path = iHer_iosUITests;
+			sourceTree = "<group>";
+		};
+		112068DA267E6F54004ADE19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				112068DE267E7415004ADE19 /* StreamViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		112068DB267E6F5C004ADE19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				112068E0267E7432004ADE19 /* Login.swift */,
+				112068E2267E744E004ADE19 /* LoadingScreen.swift */,
+				112068E4267E745F004ADE19 /* ChannelView.swift */,
+				112068E6267E748F004ADE19 /* CreateNewChannel.swift */,
+				112068E8267E74A7004ADE19 /* ChatView.swift */,
+				112068EA267E74BC004ADE19 /* MessageRowView.swift */,
+				112068EC267E74D7004ADE19 /* ChatBubble.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		112068DC267E6F62004ADE19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		112068DD267E6F69004ADE19 /* GroupChat */ = {
+			isa = PBXGroup;
+			children = (
+				112068DC267E6F62004ADE19 /* Model */,
+				112068DB267E6F5C004ADE19 /* View */,
+				112068DA267E6F54004ADE19 /* ViewModel */,
+			);
+			path = GroupChat;
+			sourceTree = "<group>";
+		};
+		B417FF48A1039448D87A0419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B86F243A5CFA1C50A2BE0D21 /* Pods-iHer_ios.debug.xcconfig */,
+				F8B139A0D7CABF1633A29D73 /* Pods-iHer_ios.release.xcconfig */,
+				466A7C11FD5CDE7794525D1C /* Pods-iHer_ios-iHer_iosUITests.debug.xcconfig */,
+				C75988E06AD75694C8674881 /* Pods-iHer_ios-iHer_iosUITests.release.xcconfig */,
+				9EFCE0FC0186256C9CE86D3D /* Pods-iHer_iosTests.debug.xcconfig */,
+				8A6415CFAD4B53CE5F3BAFF9 /* Pods-iHer_iosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBCC0991A16F0C5AE292E02A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF90813DBB6B9EA0914ACE9A /* Pods_iHer_ios.framework */,
+				FBD03140613757358B2F49E4 /* Pods_iHer_ios_iHer_iosUITests.framework */,
+				92642DED6F553D1D166DC220 /* Pods_iHer_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		112068AB267E6D02004ADE19 /* iHer_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112068D1267E6D07004ADE19 /* Build configuration list for PBXNativeTarget "iHer_ios" */;
+			buildPhases = (
+				3E1504284FA8D9FFA2B66153 /* [CP] Check Pods Manifest.lock */,
+				112068A8267E6D02004ADE19 /* Sources */,
+				112068A9267E6D02004ADE19 /* Frameworks */,
+				112068AA267E6D02004ADE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHer_ios;
+			productName = iHer_ios;
+			productReference = 112068AC267E6D02004ADE19 /* iHer_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		112068BC267E6D07004ADE19 /* iHer_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112068D4267E6D07004ADE19 /* Build configuration list for PBXNativeTarget "iHer_iosTests" */;
+			buildPhases = (
+				430F467CC34D813A2A8EB3B9 /* [CP] Check Pods Manifest.lock */,
+				112068B9267E6D07004ADE19 /* Sources */,
+				112068BA267E6D07004ADE19 /* Frameworks */,
+				112068BB267E6D07004ADE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112068BF267E6D07004ADE19 /* PBXTargetDependency */,
+			);
+			name = iHer_iosTests;
+			productName = iHer_iosTests;
+			productReference = 112068BD267E6D07004ADE19 /* iHer_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		112068C7267E6D07004ADE19 /* iHer_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112068D7267E6D07004ADE19 /* Build configuration list for PBXNativeTarget "iHer_iosUITests" */;
+			buildPhases = (
+				027A79F8AE1300E367A37ACF /* [CP] Check Pods Manifest.lock */,
+				112068C4267E6D07004ADE19 /* Sources */,
+				112068C5267E6D07004ADE19 /* Frameworks */,
+				112068C6267E6D07004ADE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112068CA267E6D07004ADE19 /* PBXTargetDependency */,
+			);
+			name = iHer_iosUITests;
+			productName = iHer_iosUITests;
+			productReference = 112068C8267E6D07004ADE19 /* iHer_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		112068A4267E6D02004ADE19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					112068AB267E6D02004ADE19 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					112068BC267E6D07004ADE19 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 112068AB267E6D02004ADE19;
+					};
+					112068C7267E6D07004ADE19 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 112068AB267E6D02004ADE19;
+					};
+				};
+			};
+			buildConfigurationList = 112068A7267E6D02004ADE19 /* Build configuration list for PBXProject "iHer_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 112068A3267E6D01004ADE19;
+			productRefGroup = 112068AD267E6D02004ADE19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112068AB267E6D02004ADE19 /* iHer_ios */,
+				112068BC267E6D07004ADE19 /* iHer_iosTests */,
+				112068C7267E6D07004ADE19 /* iHer_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112068AA267E6D02004ADE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112068B7267E6D07004ADE19 /* Preview Assets.xcassets in Resources */,
+				112068B4267E6D07004ADE19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112068BB267E6D07004ADE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112068C6267E6D07004ADE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		027A79F8AE1300E367A37ACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iHer_ios-iHer_iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1504284FA8D9FFA2B66153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iHer_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430F467CC34D813A2A8EB3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iHer_iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112068A8267E6D02004ADE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112068EB267E74BC004ADE19 /* MessageRowView.swift in Sources */,
+				112068ED267E74D7004ADE19 /* ChatBubble.swift in Sources */,
+				112068E5267E745F004ADE19 /* ChannelView.swift in Sources */,
+				112068E3267E744E004ADE19 /* LoadingScreen.swift in Sources */,
+				112068B2267E6D02004ADE19 /* ContentView.swift in Sources */,
+				112068EF267E74F7004ADE19 /* Credential.swift in Sources */,
+				112068DF267E7415004ADE19 /* StreamViewModel.swift in Sources */,
+				112068E9267E74A7004ADE19 /* ChatView.swift in Sources */,
+				112068B0267E6D02004ADE19 /* iHer_iosApp.swift in Sources */,
+				112068E7267E748F004ADE19 /* CreateNewChannel.swift in Sources */,
+				112068E1267E7432004ADE19 /* Login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112068B9267E6D07004ADE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112068C2267E6D07004ADE19 /* iHer_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112068C4267E6D07004ADE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112068CD267E6D07004ADE19 /* iHer_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		112068BF267E6D07004ADE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112068AB267E6D02004ADE19 /* iHer_ios */;
+			targetProxy = 112068BE267E6D07004ADE19 /* PBXContainerItemProxy */;
+		};
+		112068CA267E6D07004ADE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112068AB267E6D02004ADE19 /* iHer_ios */;
+			targetProxy = 112068C9267E6D07004ADE19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		112068CF267E6D07004ADE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		112068D0267E6D07004ADE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112068D2267E6D07004ADE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86F243A5CFA1C50A2BE0D21 /* Pods-iHer_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iHer_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = CSE9343A58;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iHer_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.iHer-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112068D3267E6D07004ADE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B139A0D7CABF1633A29D73 /* Pods-iHer_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iHer_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = CSE9343A58;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iHer_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.iHer-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		112068D5267E6D07004ADE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFCE0FC0186256C9CE86D3D /* Pods-iHer_iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = iHer_iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.iHer-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHer_ios.app/iHer_ios";
+			};
+			name = Debug;
+		};
+		112068D6267E6D07004ADE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6415CFAD4B53CE5F3BAFF9 /* Pods-iHer_iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = iHer_iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.iHer-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHer_ios.app/iHer_ios";
+			};
+			name = Release;
+		};
+		112068D8267E6D07004ADE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466A7C11FD5CDE7794525D1C /* Pods-iHer_ios-iHer_iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = iHer_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.iHer-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iHer_ios;
+			};
+			name = Debug;
+		};
+		112068D9267E6D07004ADE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75988E06AD75694C8674881 /* Pods-iHer_ios-iHer_iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = iHer_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.iHer-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iHer_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112068A7267E6D02004ADE19 /* Build configuration list for PBXProject "iHer_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112068CF267E6D07004ADE19 /* Debug */,
+				112068D0267E6D07004ADE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112068D1267E6D07004ADE19 /* Build configuration list for PBXNativeTarget "iHer_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112068D2267E6D07004ADE19 /* Debug */,
+				112068D3267E6D07004ADE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112068D4267E6D07004ADE19 /* Build configuration list for PBXNativeTarget "iHer_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112068D5267E6D07004ADE19 /* Debug */,
+				112068D6267E6D07004ADE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112068D7267E6D07004ADE19 /* Build configuration list for PBXNativeTarget "iHer_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112068D8267E6D07004ADE19 /* Debug */,
+				112068D9267E6D07004ADE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 112068A4267E6D02004ADE19 /* Project object */;
+}
